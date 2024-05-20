@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -14,9 +15,10 @@
 
 <body class="darkmode">
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand" href="index.php">FORMULÁRIO</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
@@ -59,7 +61,7 @@
                     <img class="card-img-top" src="./img/perfilex1.jpg" alt="Desenvolvedor 3">
                     <div class="card-body">
                         <h5 class="card-title">Jean</h5>
-                        <p class="card-text">Banco de dados</p>
+                        <p class="card-text">Desenvolvedor Back-end</p>
                     </div>
                 </div>
             </div>
@@ -67,30 +69,31 @@
     </div>
 
 
-    <footer class="footer mt-auto py-3 bg-light text-center">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-4">
-            <h5>Sobre</h5>
-                <p>Projeto com foco no desenvolvimento de um CRUD para aula de programação web da Universidade Braz Cubas</p>
-            </div>
-            <div class="col-md-4">
-                <h5>Links úteis</h5>
-                <ul class="list-unstyled text-small">
-                    <li><a class="text-muted" href="#">Política de Privacidade</a></li>
-                    <li><a class="text-muted" href="#">Termos de Uso</a></li>
-                    <li><a class="text-muted" href="#">Contato</a></li>
-                </ul>
-            </div>
-            <div class="col-md-4">
-                <h5>Redes sociais</h5>
-                <a href="#" style="margin-right: 10px;"><i class="fab fa-facebook-f"></i></a>
-                <a href="#" style="margin-right: 10px;"><i class="fab fa-twitter"></i></a>
-                <a href="#"><i class="fab fa-instagram"></i></a>
+    <footer class="footer mt-auto py-3 bg-light text-center footer-dark bg-dark">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>Sobre</h5>
+                    <p>Projeto com foco no desenvolvimento de um CRUD para aula de programação web da Universidade Braz
+                        Cubas</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Links úteis</h5>
+                    <ul class="list-unstyled text-small">
+                        <li><a class="text-muted" href="#">Política de Privacidade</a></li>
+                        <li><a class="text-muted" href="#">Termos de Uso</a></li>
+                        <li><a class="text-muted" href="#">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5>Redes sociais</h5>
+                    <a href="#" style="margin-right: 10px;"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" style="margin-right: 10px;"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
             </div>
         </div>
-    </div>
-</footer>
+    </footer>
 
 
     <!-- Bootstrap JS -->
@@ -102,4 +105,5 @@
     </script>
 
 </body>
+
 </html>

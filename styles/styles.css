@@ -14,3 +14,11 @@ body {
 .container_add, .container_view {
   margin-bottom: 30px;
 }
+
+.col-md-4{
+  color: white;
+}
+
+.text-muted {
+  color: white;
+}

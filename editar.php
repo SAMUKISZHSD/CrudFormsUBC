@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -13,11 +14,13 @@
     <link rel="stylesheet" href="./styles/styles.css">
     <link rel="icon" href="./img/5949930.png">
 </head>
+
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand" href="index.php">FORMULÁRIO</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
@@ -39,7 +42,7 @@
         require 'config.php';
 
         // Verifica se o ID foi enviado
-        if(isset($_GET['id'])) {
+        if (isset($_GET['id'])) {
             $id = $_GET['id'];
 
             // Busca o usuário no banco de dados
@@ -51,7 +54,7 @@
             $usuario = $result->fetch_assoc();
 
             // Verifica se o formulário foi submetido
-            if($_SERVER["REQUEST_METHOD"] == "POST") {
+            if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 $nome = $_POST['nome'];
                 $idade = $_POST['idade'];
                 $email = $_POST['email'];
@@ -75,22 +78,25 @@
         <form action="editar.php?id=<?php echo $id; ?>" method="post">
             <div class="form-group">
                 <label for="nome">Nome:</label>
-                <input type="text" class="form-control" id="nome" name="nome" value="<?php echo $usuario['Nome']; ?>" required>
+                <input type="text" class="form-control" id="nome" name="nome" value="<?php echo $usuario['Nome']; ?>"
+                    required>
             </div>
             <div class="form-group">
                 <label for="idade">Idade:</label>
-                <input type="number" class="form-control" id="idade" name="idade" value="<?php echo $usuario['Idade']; ?>" required>
+                <input type="number" class="form-control" id="idade" name="idade"
+                    value="<?php echo $usuario['Idade']; ?>" required>
             </div>
             <div class="form-group">
                 <label for="email">Email:</label>
-                <input type="email" class="form-control" id="email" name="email" value="<?php echo $usuario['Email']; ?>" required>
+                <input type="email" class="form-control" id="email" name="email"
+                    value="<?php echo $usuario['Email']; ?>" required>
             </div>
             <button type="submit" class="btn btn-primary">Salvar</button>
         </form>
 
     </div>
 
-    <footer class="footer mt-auto py-3 bg-light text-center">
+    <footer class="footer mt-auto py-3 bg-dark text-center">
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
@@ -123,4 +129,5 @@
         new Darkmode().showWidget();
     </script>
 </body>
+
 </html>

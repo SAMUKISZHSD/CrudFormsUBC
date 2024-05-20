@@ -11,4 +11,3 @@ if ($conexao->connect_error) {
   die("Connection failed: " . $conexao->connect_error);
 }
 ?>
-
