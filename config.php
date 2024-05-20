@@ -8,6 +8,6 @@ $conexao = new mysqli($servername, $username, '', $dbname);
 
 // Check connection
 if ($conexao->connect_error) {
-  die("Connection failed: " . $conexao->connect_error);
+  die("Deu ruim irmão: " . $conexao->connect_error);
 }
 ?>
