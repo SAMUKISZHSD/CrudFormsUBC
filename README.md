@@ -13,7 +13,7 @@ funcional que permita aos usuários criar, ler, atualizar e deletar registros em
 <div> 
   <h1>Tecnologias Utilizadas</h1>
 
-[![My Skills](https://skillicons.dev/icons?i=github,php,mysql,vscode)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=github,php,bootstrap,mysql,vscode)](https://skillicons.dev)
 
  </div>
 <div>
