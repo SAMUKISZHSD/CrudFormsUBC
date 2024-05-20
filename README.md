@@ -8,7 +8,6 @@ funcional que permita aos usuários criar, ler, atualizar e deletar registros em
 
 - PHP
 - Apache
-- VsCode
 - MySQL
 
 <div> 
